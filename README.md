@@ -11,7 +11,8 @@ src/
 ├── lesson1/Lesson1.java    # zmienne, typy, Scanner, BMI
 ├── lesson2/Lesson2.java    # if/else, switch, rok przestępny
 ├── lesson3/Lesson3.java    # pętle, tablice, FizzBuzz
-└── lesson4/Lesson4.java    # metody, liczby pierwsze, silnia
+├── lesson4/Lesson4.java    # metody, liczby pierwsze, silnia
+└── lesson5/Lesson5.java    # String, palindrom, szyfr Cezara, anagramy
 ```
 
 ## Uruchomienie
@@ -24,7 +25,7 @@ Z terminala:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out lesson4.Lesson4
+java -cp out lesson5.Lesson5
 ```
 
 ## Postęp
@@ -33,7 +34,7 @@ java -cp out lesson4.Lesson4
 - [x] Lekcja 2: instrukcje warunkowe
 - [x] Lekcja 3: pętle i tablice
 - [x] Lekcja 4: metody
-- [ ] Lekcja 5: String i StringBuilder
+- [x] Lekcja 5: String i StringBuilder
 - [ ] Programowanie obiektowe
 - [ ] Kolekcje, wyjątki, generyki
 - [ ] Stream API
