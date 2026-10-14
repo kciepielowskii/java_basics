@@ -13,6 +13,11 @@ src/
 ├── lesson3/Lesson3.java    # pętle, tablice, FizzBuzz
 ├── lesson4/Lesson4.java    # metody, liczby pierwsze, silnia
 └── lesson5/Lesson5.java    # String, palindrom, szyfr Cezara, anagramy
+└── lesson6/
+    ├── Lesson6.java       # testowanie klas i obiektów
+    ├── Book.java          # klasa Book
+    ├── BankAccount.java   # klasa BankAccount
+    └── Rectangle.java     # klasa Rectangle
 ```
 
 ## Uruchomienie
@@ -35,6 +40,6 @@ java -cp out lesson5.Lesson5
 - [x] Lekcja 3: pętle i tablice
 - [x] Lekcja 4: metody
 - [x] Lekcja 5: String i StringBuilder
-- [ ] Programowanie obiektowe
+- [x] Lekcja 6: Programowanie obiektowe 
 - [ ] Kolekcje, wyjątki, generyki
 - [ ] Stream API
