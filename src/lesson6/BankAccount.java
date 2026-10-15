@@ -41,6 +41,6 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        return "Owner: " + owner + "\nBalance: " + balance + "$" + "\n";
+        return "Owner: " + owner + "\nBalance: " + balance + "$";
     }
 }

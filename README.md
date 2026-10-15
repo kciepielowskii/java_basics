@@ -7,17 +7,33 @@ Każda lekcja to osobna klasa z własną metodą `main`, a treść zadań jest w
 
 ```
 src/
-├── common/Console.java     # pomocnicze wypisywanie nagłówków
-├── lesson1/Lesson1.java    # zmienne, typy, Scanner, BMI
-├── lesson2/Lesson2.java    # if/else, switch, rok przestępny
-├── lesson3/Lesson3.java    # pętle, tablice, FizzBuzz
-├── lesson4/Lesson4.java    # metody, liczby pierwsze, silnia
-└── lesson5/Lesson5.java    # String, palindrom, szyfr Cezara, anagramy
-└── lesson6/
-    ├── Lesson6.java       # testowanie klas i obiektów
-    ├── Book.java          # klasa Book
-    ├── BankAccount.java   # klasa BankAccount
-    └── Rectangle.java     # klasa Rectangle
+├── common/
+│   └── Console.java          # pomocnicze wypisywanie nagłówków
+├── lesson1/
+│   └── Lesson1.java          # zmienne, typy, Scanner, BMI
+├── lesson2/
+│   └── Lesson2.java          # if/else, switch, rok przestępny
+├── lesson3/
+│   └── Lesson3.java          # pętle, tablice, FizzBuzz
+├── lesson4/
+│   └── Lesson4.java          # metody, liczby pierwsze, silnia
+├── lesson5/
+│   └── Lesson5.java          # String, palindrom, szyfr Cezara, anagramy
+├── lesson6/
+│   ├── Lesson6.java          # testowanie klas i obiektów
+│   ├── Book.java             # klasa Book
+│   ├── BankAccount.java      # klasa BankAccount
+│   └── Rectangle.java        # klasa Rectangle
+└── lesson7/
+    ├── Lesson7.java          # testowanie dziedziczenia i polimorfizmu
+    ├── Shape.java            # klasa bazowa figur geometrycznych
+    ├── Circle.java           # koło
+    ├── Rectangle.java        # prostokąt
+    ├── Square.java           # kwadrat dziedziczący po Rectangle
+    ├── Employee.java         # klasa bazowa pracownika
+    ├── Manager.java          # kierownik z premią
+    ├── Developer.java        # programista z nadgodzinami
+    └── SavingsAccount.java   # konto oszczędnościowe z oprocentowaniem        
 ```
 
 ## Uruchomienie
@@ -41,5 +57,6 @@ java -cp out lesson5.Lesson5
 - [x] Lekcja 4: metody
 - [x] Lekcja 5: String i StringBuilder
 - [x] Lekcja 6: Programowanie obiektowe 
+- [x] Lekcja 7: dziedziczenie i polimorfizm (extends, super, @Override, instanceof)
 - [ ] Kolekcje, wyjątki, generyki
 - [ ] Stream API
