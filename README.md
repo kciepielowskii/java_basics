@@ -34,18 +34,20 @@ src/
 │   ├── Manager.java          # kierownik z premią
 │   ├── Developer.java        # programista z nadgodzinami
 │   └── SavingsAccount.java   # konto oszczędnościowe z oprocentowaniem
-└── lesson8/
-    ├── Lesson8.java          # testowanie klas abstrakcyjnych i interfejsów
-    ├── Animal.java           # abstrakcyjna klasa bazowa zwierząt
-    ├── Dog.java              # pies
-    ├── Cat.java              # kot
-    ├── Cow.java              # krowa
-    ├── Flyable.java          # interfejs: umie latać
-    ├── Swimmable.java        # interfejs: umie pływać
-    ├── Duck.java             # kaczka (Flyable i Swimmable)
-    ├── Fish.java             # ryba (Swimmable)
-    ├── Plane.java            # samolot (Flyable)
-    └── Student.java          # student sortowany przez Comparable
+├── lesson8/
+│   ├── Lesson8.java          # testowanie klas abstrakcyjnych i interfejsów
+│   ├── Animal.java           # abstrakcyjna klasa bazowa zwierząt
+│   ├── Dog.java              # pies
+│   ├── Cat.java              # kot
+│   ├── Cow.java              # krowa
+│   ├── Flyable.java          # interfejs: umie latać
+│   ├── Swimmable.java        # interfejs: umie pływać
+│   ├── Duck.java             # kaczka (Flyable i Swimmable)
+│   ├── Fish.java             # ryba (Swimmable)
+│   ├── Plane.java            # samolot (Flyable)
+│   └── Student.java          # student sortowany przez Comparable
+└── lesson9/
+    └── Lesson9.java          # kolekcje: ArrayList, HashMap, HashSet
 ```
 
 ## Uruchomienie
@@ -58,7 +60,7 @@ Z terminala:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out lesson8.Lesson8
+java -cp out lesson9.Lesson9
 ```
 
 ## Postęp
@@ -71,5 +73,6 @@ java -cp out lesson8.Lesson8
 - [x] Lekcja 6: klasy i obiekty (enkapsulacja, wyjątki)
 - [x] Lekcja 7: dziedziczenie i polimorfizm (extends, super, @Override, instanceof)
 - [x] Lekcja 8: klasy abstrakcyjne i interfejsy (abstract, interface, Comparable)
-- [ ] Kolekcje, wyjątki, generyki
+- [x] Lekcja 9: kolekcje (ArrayList, HashMap, HashSet)
+- [ ] Wyjątki, generyki
 - [ ] Stream API
