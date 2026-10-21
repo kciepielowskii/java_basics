@@ -46,8 +46,13 @@ src/
 │   ├── Fish.java             # ryba (Swimmable)
 │   ├── Plane.java            # samolot (Flyable)
 │   └── Student.java          # student sortowany przez Comparable
-└── lesson9/
-    └── Lesson9.java          # kolekcje: ArrayList, HashMap, HashSet
+├── lesson9/
+│   └── Lesson9.java          # kolekcje: ArrayList, HashMap, HashSet
+└── lesson10/
+    ├── Lesson10.java                   # wyjątki: checked/unchecked, finally, try-with-resources
+    ├── InsufficientFundsException.java # własny wyjątek (checked)
+    ├── Wallet.java                     # portfel z metodą withdraw()
+    └── Resource.java                   # zasób AutoCloseable
 ```
 
 ## Uruchomienie
@@ -60,7 +65,7 @@ Z terminala:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out lesson9.Lesson9
+java -cp out lesson10.Lesson10
 ```
 
 ## Postęp
@@ -74,5 +79,6 @@ java -cp out lesson9.Lesson9
 - [x] Lekcja 7: dziedziczenie i polimorfizm (extends, super, @Override, instanceof)
 - [x] Lekcja 8: klasy abstrakcyjne i interfejsy (abstract, interface, Comparable)
 - [x] Lekcja 9: kolekcje (ArrayList, HashMap, HashSet)
-- [ ] Wyjątki, generyki
+- [x] Lekcja 10: wyjątki (checked/unchecked, własne wyjątki, finally, try-with-resources)
+- [ ] Generyki
 - [ ] Stream API
