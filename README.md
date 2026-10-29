@@ -53,11 +53,13 @@ src/
 │   ├── InsufficientFundsException.java # własny wyjątek (checked)
 │   ├── Wallet.java                     # portfel z metodą withdraw()
 │   └── Resource.java                   # zasób AutoCloseable
-└── lesson11/
-    ├── Lesson11.java         # generyki: metody generyczne, typy ograniczone
-    ├── Box.java              # klasa generyczna Box<T>
-    ├── Pair.java             # klasa generyczna Pair<A, B>
-    └── Stack.java            # generyczny stos Stack<T>
+├── lesson11/
+│   ├── Lesson11.java         # generyki: metody generyczne, typy ograniczone
+│   ├── Box.java              # klasa generyczna Box<T>
+│   ├── Pair.java             # klasa generyczna Pair<A, B>
+│   └── Stack.java            # generyczny stos Stack<T>
+└── lesson12/
+    └── Lesson12.java         # lambdy i Stream API: filter, map, sorted, collect, groupingBy
 ```
 
 ## Uruchomienie
@@ -70,7 +72,7 @@ Z terminala:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out lesson11.Lesson11
+java -cp out lesson12.Lesson12
 ```
 
 ## Postęp
@@ -86,4 +88,4 @@ java -cp out lesson11.Lesson11
 - [x] Lekcja 9: kolekcje (ArrayList, HashMap, HashSet)
 - [x] Lekcja 10: wyjątki (checked/unchecked, własne wyjątki, finally, try-with-resources)
 - [x] Lekcja 11: generyki (klasy generyczne, metody generyczne, typy ograniczone)
-- [ ] Stream API
+- [x] Lekcja 12: lambdy i Stream API (Comparator, removeIf, filter, map, Optional, Collectors)

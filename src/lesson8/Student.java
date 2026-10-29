@@ -22,7 +22,7 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return name + ", " + average;
+        return name + " - " + average;
     }
 
     // Getters
