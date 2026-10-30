@@ -58,8 +58,13 @@ src/
 │   ├── Box.java              # klasa generyczna Box<T>
 │   ├── Pair.java             # klasa generyczna Pair<A, B>
 │   └── Stack.java            # generyczny stos Stack<T>
-└── lesson12/
-    └── Lesson12.java         # lambdy i Stream API: filter, map, sorted, collect, groupingBy
+├── lesson12/
+│   └── Lesson12.java         # lambdy i Stream API: filter, map, sorted, collect, groupingBy
+└── lesson13/
+    ├── Lesson13.java         # Optional, rekordy, switch expressions (testy i metody)
+    ├── Point.java            # record Point z distanceTo() i origin()
+    ├── Temperature.java      # record Temperature z walidacją i toFahrenheit()
+    └── Product.java          # record Product (nazwa i cena z walidacją)
 ```
 
 ## Uruchomienie
@@ -72,7 +77,7 @@ Z terminala:
 
 ```bash
 javac -d out $(find src -name "*.java")
-java -cp out lesson12.Lesson12
+java -cp out lesson13.Lesson13
 ```
 
 ## Postęp
@@ -89,3 +94,4 @@ java -cp out lesson12.Lesson12
 - [x] Lekcja 10: wyjątki (checked/unchecked, własne wyjątki, finally, try-with-resources)
 - [x] Lekcja 11: generyki (klasy generyczne, metody generyczne, typy ograniczone)
 - [x] Lekcja 12: lambdy i Stream API (Comparator, removeIf, filter, map, Optional, Collectors)
+- [x] Lekcja 13: Optional, rekordy (record), switch expressions (pattern matching, yield)
